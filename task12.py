@@ -14,6 +14,5 @@ for x in range(1, 1001):
             if x + y == sum and x * y == proiz:
                 count += 1
                 print(x, y)
-                break
 if count == 0:
     print('Введены некорректные данные.')
