@@ -3,3 +3,10 @@
 не превосходящие числа N.
 '''
 
+n = int(input('Введите число N: '))
+k = 0
+res = 1
+while res <= n:
+    print(res, end = ' ')
+    k += 1
+    res = 2 ** k
